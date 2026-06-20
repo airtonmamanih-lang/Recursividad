@@ -51,8 +51,49 @@ datos_json = """
                 "Derecho Constitucional y Civil",
                 "Derecho Tributario"
             ]
+        },
+        "Facultad de Ciencias Económicas": {
+            "Economía Pública": [
+                "Microeconomía I",
+                "Macroeconomía I",
+                "Cuentas Nacionales",
+                "Matemática para Economía III",
+                "Estadística II",
+                "Contabilidad Financiera"
+            ]
+        },
+        "Facultad de Ciencias Físicas": {
+            "Ingeniería Mecánica de Fluidos": [
+                "Geometría Descrptiva",
+                "Análisis Vectorial y Tensorial",
+                "Física II",
+                "Estática",
+                "Lenguaje de Programación",
+                "Estadística y Probabilidades",
+                "Álgebra y Geometría Analítica II"
+            ]
         }
-
+    },
+    "Universidad Peruanana de Ciencias Aplicadas": {
+        "Facultad de Comunicaciones":{
+            "Marketing": [
+                "Introducción a los Medios Digitales",
+                "Informática para el Marketing",
+                "Taller de Técnicas de Expresión Escrita",
+                "Comportamiento del Consumidor"
+            ]
+        },
+        "Facultad de Derecho": {
+            "Derecho Civil": [
+                "Derechos de Propiedad",
+                "Teoría Constitucional y Política",
+                "Fundamentos de la Contractación I",
+                "Seminario Integrado de Investigación",
+                "Contabilidad para Abogados",
+                "Fundamentos de la Gerencia",
+                "Taller de Liderazgo II"
+            ]
+        }
     }
 }
 """
@@ -83,7 +124,7 @@ def mostrar_estructura(elemento, nivel=0):
 
 print("=" * 50)
 print("SISTEMA DE CURSOS UNIVERSITARIOS")
-print("3er Ciclo de Ingeniería de Sistemas e Informática")
+print("3er Ciclo Académico en la Universidad")
 print("=" * 50)
 
 print("\nFecha y hora de ejecución:")
