@@ -24,10 +24,10 @@ def sugerirLibros(listaIndices,posActual,libros,cursor,conexion):
 libros=[]
 try:
     conexion=mysql.connector.connect(
-        host="",
-        user="",
-        password="",
-        database=""
+        host=" ",
+        user=" ",
+        password=" ",
+        database=" "
     )
     if conexion.is_connected():
         print("Conexión exitosa a la base de datos.")
